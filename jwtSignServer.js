@@ -2,6 +2,7 @@
 * JSON Web Token Signing Server  
 * 
 * Copyright(c) 2015 Riël Notermans
+* https://plus.google.com/+rielnotermans
 * MIT Licensed
 * 
 * includes jwt-simple module attributed in code
