@@ -10,6 +10,8 @@ My previous service account library ran the RSA Signing code in Google Apps Scri
 3) Click 'Create New Client Id'  
 4) Select Service Account and p12 key  
 5) Click 'Create Client Id'. The p12 key will autodownload.  
+6) Click APIs in left menu  
+7) Enable any APIs you need this service account to access  
 
 ##### Prepare your Service Account RSA Key  
 Prepare your Service Account key for the library by running the following command:  
@@ -18,9 +20,18 @@ Prepare your Service Account key for the library by running the following comman
 If you are running Windows you will need to install openssl and base64.exe  
 [base64.zip](https://drive.google.com/open?id=0B_j9_-NbJQQDQ2xNUEloMlV1b1U)  
 [Openssl for windows](http://slproweb.com/products/Win32OpenSSL.html)  
-
-##### Using the Library  
-You can either either use the code from this repo or include the library MLMfbjxn4nA3IwygCAa7Pqsh00DPSBbB3  
+  
+##### Authorize the service account for your google domain  
+ 1) Launch admin.google.com as a domain admin  
+ 2) Open Security settings  
+ 3) Choose advanced settings  
+ 4) Choose Manage API client access  
+ 5) Add you service account client Id in the 'Client Name' box  
+ 6) Add the OAuth2 scopes to the APIs you enabled for this service account 'One or More API scopes' box  
+   
+   
+##### Adding the Library  
+You can either either use the code from this repo directly in your project or include the library MLMfbjxn4nA3IwygCAa7Pqsh00DPSBbB3  
   
     
     /*  
