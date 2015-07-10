@@ -1,7 +1,11 @@
 # Apps-Script-Service-Account-tokenBuilder-Library  
 ##### This is an improved Google service account library for Google Apps Script. This uses NodeJS to run a micro service to complete the signing process.  
 
-My previous service account library ran the RSA Signing code in Google Apps Script. This proved to be too encumbersome for the limited resources allocated for each script.  Working with Riël Notermans we put together a solution to use node as a micro signing service.  Riël put together the node server code and I adapted my previous library to use this service.  
+My previous service account library ran the RSA Signing code in Google Apps Script. This proved to be too encumbersome for the limited resources allocated for each script.  Working with Riël Notermans we put together a solution to use node as a micro signing service.  Riël put together the node server code and I adapted my previous library to use this service. 
+
+You can reach us on google+:  
+[Riël Notermans](https://plus.google.com/+rielnotermans)  
+[Spencer Easton](https://plus.google.com/+SpencerEastonCCS)  
 
 #### Using this Library  
 ##### Create a Service Account
