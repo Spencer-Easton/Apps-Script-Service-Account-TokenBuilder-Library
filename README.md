@@ -12,7 +12,7 @@ My previous service account library ran the RSA Signing code in Google Apps Scri
 5) Click 'Create Client Id'. The p12 key will autodownload.  
 
 ##### Prepare your Service Account RSA Key  
-Prepare your Service Account key for library by running the following command:  
+Prepare your Service Account key for the library by running the following command:  
  - openssl pkcs12 -in YOURPRIVATEKEY.p12 -nodes | openssl rsa | base64 > myfile.pem.b64  
 
 If you are running Windows you will need to install openssl and base64.exe  
@@ -33,7 +33,7 @@ You can either either use the code from this repo or include the library MLMfbjx
     function tokenBuilder(string RSAKey, array Scopes, string ServiceAccountEmail)   
       
     /*  
-    * Sets the url to the signing server if you don't wish to use the default  
+    * Sets the url to the signing server if you don't wish to use the public server.  
     * @param {String} serverUrl Url of the server you want to use  
     * @@return {object} self for chaining  
     *\  
