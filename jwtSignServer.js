@@ -1,7 +1,7 @@
 /*
 * JSON Web Token Signing Server  
 * 
-* Copyright(c) 2015 Riël Notermans
+* Copyright(c) 2015 Zzapps B.V.
 * https://plus.google.com/+rielnotermans
 * MIT Licensed
 * 
