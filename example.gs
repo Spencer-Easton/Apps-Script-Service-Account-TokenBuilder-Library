@@ -20,8 +20,8 @@ function test_tokenBuilder_Library(){
     
              
              
-   var t1 = getToken("1test@example.com");
-   Logger.log({"token":t.token,"expiration":t.expire});
+   var t1 = testBuilder.getToken("1test@example.com");
+   Logger.log({"token":t1.token,"expiration":t1.expire});
    
    Logger.log(testBuilder.getTokens());
 }
