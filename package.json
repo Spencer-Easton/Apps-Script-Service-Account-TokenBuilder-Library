@@ -1,0 +1,31 @@
+{
+  "name": "jwtService",
+  "version": "0.1.0",
+  "description": "Service for the Service Account Token Builder Library",
+  "main": "jwtService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spencer-Easton/Apps-Script-Service-Account-TokenBuilder-Library"
+  },
+  "keywords": [
+    "Google",
+    "Service",
+    "Account",
+    "Apps",
+    "Script"
+  ],
+  "author": "Spencer Easton / Riël Notermans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spencer-Easton/Apps-Script-Service-Account-TokenBuilder-Library/issues"
+  },
+  "homepage": "https://github.com/Spencer-Easton/Apps-Script-Service-Account-TokenBuilder-Library",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "multer": "^0.1.8"
+  }
+}
